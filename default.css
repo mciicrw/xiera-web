@@ -245,7 +245,7 @@
 	
 	.box1,
 	.box2,
-	.box3,
+	.box3
 	{
 		float: left;
 		margin-right: 20px;
@@ -430,7 +430,14 @@
 	#banner .button
 	{
 		margin-top: 3em;
-		background: #009E2D !important;
+		background: #009E2D;
+		transition: 0.7s;
+	}
+
+	#banner .button:hover
+	{	
+		background: #FFFFFF;
+		color: #009E2D
 	}
 
 /*********************************************************************************/
@@ -521,7 +528,14 @@
 		background: #FFF;
 		margin-top: 3em;
 		font-size: 1em;
-		color: #00BBAD;
+		color: #009E2D;
+		transition: 0.7s;
+	}
+
+	#featured .button:hover
+	{
+		background: #373737;
+		color: #FFFFFF;
 	}
 
 	#featured .title
