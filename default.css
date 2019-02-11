@@ -316,7 +316,14 @@
 	#header
 	{
 		position: relative;
-		padding: 3em 0em;
+		padding: 2.5em 0em;
+	}
+
+	.sticky
+	{
+		position: fixed;
+		top: 0;
+		width: 100%;
 	}
 
 /*********************************************************************************/
