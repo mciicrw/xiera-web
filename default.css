@@ -326,8 +326,8 @@
 	#logo
 	{
 	position: absolute;
-	top: 1em;
-	left: 4em;
+	top: 1.13em;
+	left: 4.5em;
 	}
 	
 	#logo h1
@@ -380,17 +380,25 @@
 		text-transform: uppercase;
 		font-size: 0.8em;
 		color: #FFF;
+		transition: 0.7s;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
 		color: #FFF;
+		background: #676767;
 	}
 	
 	#menu .current_page_item a
 	{
 		background: #009E2D;
 		color: #FFF;
+	}
+
+	#menu .current_page_item a:hover
+	{
+		background: #FFFFFF;
+		color: #009E2D;
 	}
 	
 	#menu .icon
@@ -503,6 +511,12 @@
 	{
 		text-decoration: none;
 		color: rgba(255,255,255,0.8);
+		transition: 0.7s;
+	}
+
+	#copyright a:hover
+	{
+		color: rgba(255,255,255,1);
 	}
 
 /*********************************************************************************/
