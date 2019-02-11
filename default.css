@@ -377,11 +377,10 @@
 		padding: 2.5em 0em;
 	}
 
-	.sticky
+	.super-dark-grey
 	{
-		position: fixed;
-		top: 0;
-		width: 100%;
+		color: #FFFFFF;
+		background: #333333;
 	}
 
 /*********************************************************************************/
