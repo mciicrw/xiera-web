@@ -310,7 +310,9 @@
 
 	#header-wrapper
 	{
+		position: fixed;
 		background: #333333;
+		padding: 0em 6em;
 	}
 
 	#header
