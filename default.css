@@ -281,6 +281,13 @@
 		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 		color: red;
 	}
+	
+	tbody>tr>:nth-child(1)
+	{
+		font-weight: bold;
+		color: #333333;
+	}
+
 
 /*********************************************************************************/
 /* Heading Titles                                                                */
