@@ -51,98 +51,103 @@
 				<h2>Command List</h2>
 				<span class="byline">Xiera has 14 commands in 4 category</span> </div>
 			 <div class="w3-bar super-dark-grey">
-   				 <button class="w3-bar-item w3-button tablink template-green" onclick="openGroup(event,'London')">London</button>
-   				 <button class="w3-bar-item w3-button tablink" onclick="openGroup(event,'Paris')">Paris</button>
-   				 <button class="w3-bar-item w3-button tablink" onclick="openGroup(event,'Tokyo')">Tokyo</button>
+   				 <button class="w3-bar-item w3-button tablink template-green" onclick="openGroup(event,'General')">General</button>
+   				 <button class="w3-bar-item w3-button tablink" onclick="openGroup(event,'PSO2')">PSO2</button>
+   				 <button class="w3-bar-item w3-button tablink" onclick="openGroup(event,'Card_games')">Card Games</button>
  			 </div>
   
- 			 <div id="London" class="w3-container group">
+ 			 <div id="General" class="w3-container group">
 				 <br>
    				 <table class="w3-table-all w3-hoverable">
    					<thead>
      					<tr class="table-green">
-       						<th>First Name</th>
-        					<th>Last Name</th>
-        					<th>Points</th>
+       						<th>Command</th>
+        					<th>Description</th>
+        					<th>Example</th>
       					</tr>
     				</thead>
 					<tr>
-					  <td>Jill</td>
-					  <td>Smith</td>
-					  <td>50</td>
+					  <td>!ping</td>
+					  <td>Pong</td>
+					  <td>!ping</td>
 					</tr>
 					<tr>
-					  <td>Eve</td>
-					  <td>Jackson</td>
-					  <td>94</td>
-					</tr>
-					<tr>
-					  <td>Adam</td>
-					  <td>Johnson</td>
-					  <td>67</td>
+					  <td>!cat</td>
+					  <td>Displays a random cat gif.</td>
+					  <td>!cat</td>
 					</tr>
 				  </table>
   			 </div>
 
-			 <div id="Paris" class="w3-container group" style="display:none">
+			 <div id="PSO2" class="w3-container group" style="display:none">
 				<br>
    				 <table class="w3-table-all w3-hoverable">
    					<thead>
      					<tr class="table-green">
-       						<th>First Name</th>
-        					<th>Last Name</th>
-        					<th>Points</th>
+       						<th>Command</th>
+        					<th>Description</th>
+        					<th>Example</th>
       					</tr>
     				</thead>
 					<tr>
-					  <td>Jill</td>
-					  <td>Smith</td>
-					  <td>50</td>
+					  <td>!pso2</td>
+					  <td>General information regarding the game.</td>
+					  <td>!pso2</td>
 					</tr>
 					<tr>
-					  <td>Eve</td>
-					  <td>Jackson</td>
-					  <td>94</td>
+					  <td>!item <i>[itemname]</i></td>
+					  <td>Looks up the japanese name of <i>[itemname]</i>.</td>
+					  <td>!item Attribute Change</td>
 					</tr>
 					<tr>
-					  <td>Adam</td>
-					  <td>Johnson</td>
-					  <td>67</td>
+					  <td>!alerts</td>
+					  <td>Enable EQ alerts</td>
+					  <td>!alerts</td>
+					</tr>
+					<tr>
+					  <td>!dalerts</td>
+					  <td>Disable EQ alerts</td>
+					  <td>!dalerts</td>
+					</tr>
+					<tr>
+					  <td>!builds</td>
+					  <td>Display current meta bulds</td>
+					  <td>!builds</td>
+					</tr>
+					<tr>
+					  <td>!bumped</td>
+					  <td>Enable alerts for new article from Bumped</td>
+					  <td>!bumped</td>
 					</tr>
 				  </table>
 			 </div>
 
-			 <div id="Tokyo" class="w3-container group" style="display:none">
+			 <div id="Card_games" class="w3-container group" style="display:none">
 				<br>
    				 <table class="w3-table-all w3-hoverable">
    					<thead>
      					<tr class="table-green">
-       						<th>First Name</th>
-        					<th>Last Name</th>
+       						<th>Command</th>
+        					<th>Description</th>
         					<th>Points</th>
       					</tr>
     				</thead>
 					<tr>
-					  <td>Jill</td>
-					  <td>Smith</td>
-					  <td>50</td>
+					  <td>!sv <i>[cardname]</i></td>
+					  <td>Returns information about Shadowverse's <i>[cardname]</i></td>
+					  <td>!sv Water Fairy</td>
 					</tr>
 					<tr>
-					  <td>Eve</td>
-					  <td>Jackson</td>
-					  <td>94</td>
-					</tr>
-					<tr>
-					  <td>Adam</td>
-					  <td>Johnson</td>
-					  <td>67</td>
+					  <td>!mtg <i>[cardname]</i></td>
+					  <td>Returns information about Magic The Gathering's <i>[cardname]</i></td>
+					  <td>!mtg Water Fairy</td>
 					</tr>
 				  </table>
 			 </div>
 		</div>
-			<ul class="actions">
+			<!--<ul class="actions">
 				<li><a href="#" class="button">Etiam posuere</a></li>
-			</ul>
+			</ul>-->
 		</div>
 </body>
 </html>
