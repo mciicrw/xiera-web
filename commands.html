@@ -49,15 +49,18 @@
 		<div id="page" class="container">
 			<div class="title">
 				<h2>Command List</h2>
-				<span class="byline">Xiera has 14 commands in 4 category</span> </div>
+				<span class="byline">Xiera has 14 commands in 4 category.</span><br> 
+				<span class="byline">You can use the command by typing <strong>![command]</strong> or by mentioning xiera followed by command.</span>
+			</div>
 			 <div class="w3-bar super-dark-grey">
    				 <button class="w3-bar-item w3-button tablink template-green" onclick="openGroup(event,'General')">General</button>
    				 <button class="w3-bar-item w3-button tablink" onclick="openGroup(event,'PSO2')">PSO2</button>
    				 <button class="w3-bar-item w3-button tablink" onclick="openGroup(event,'Card_games')">Card Games</button>
+				 <button class="w3-bar-item w3-button tablink" onClick="openGroup(event,'Admin')">Admin</button>
  			 </div>
   
  			 <div id="General" class="w3-container group">
-				 <br>
+				<br>
    				 <table class="w3-table-all w3-hoverable">
    					<thead>
      					<tr class="table-green">
@@ -144,10 +147,47 @@
 					</tr>
 				  </table>
 			 </div>
+			
+			 <div id="Admin" class="w3-container group" style="display:none">
+				 <br>
+				<p>All the following commands can be run by mentioning the bot and only work for server admins.</p>
+   				 <table class="w3-table-all w3-hoverable">
+   					<thead>
+     					<tr class="table-green">
+       						<th>Command</th>
+        					<th>Description</th>
+        					<th>Example</th>
+      					</tr>
+    				</thead>
+					<tr>
+					  <td>!groups</td>
+					  <td>Lists all command groups.</td>
+					  <td>!groups</td>
+					</tr>
+					<tr>
+					  <td>!prefix <i>[prefix]</i></td>
+					  <td> Changes the bot's prefix to<i>[prefix]</i>, but you can still mention xiera and use it as prefix.</td>
+					  <td>!prefix @</td>
+					</tr>
+					<tr>
+					  <td>!enable <i>[group or command]</i></td>
+					  <td>Enables <i>[group or command]</i> to be used in this server.</td>
+					  <td>!enable prefix</td>
+					</tr>
+					<tr>
+					  <td>!disable <i>[group or command]</i></td>
+					  <td>Disables <i>[group or command]</i> to be used in this server.</td>
+					  <td>!disable prefix</td>
+					</tr>
+				  </table>
+			 </div>
 		</div>
 			<!--<ul class="actions">
 				<li><a href="#" class="button">Etiam posuere</a></li>
 			</ul>-->
 		</div>
+<div id="copyright" class="container">
+	<p>&copy; 2019 Xiera by Ari Knight. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
 </body>
 </html>
